@@ -1,0 +1,89 @@
+body {
+    background: linear-gradient(#000000, #EF85BE);
+    font: 1.1em Helvetica, Arial;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font: 4em 'Dancing Script', Helvetica;
+}
+
+h3 {
+    font: 2em 'Architects Daughter', Helvetica, Arial;
+    color: #fff;
+}
+
+h2 {
+    font: bold 2.4em 'Architects Daughter', Helvetica, Arial;
+    color: #ffffff;
+}
+.container{
+    display: flex;
+    padding-top: 0.5em;
+}
+p{
+    font-size: 1em ;
+    line-height: 1.5em;
+    color: #000;
+}
+.resaltar{
+    color: #ef85be;
+}
+#img-div{
+  display:block;
+  margin:auto;
+}
+img{
+  display:block;
+  flex: 1;
+}
+#image {
+  max-width: 90%;
+  height: auto;
+  margin-left:auto;
+  margin-right: auto;
+  padding: auto;
+  border-radius: 2em;
+}
+
+#img-caption {
+    font-weight: bolder;
+    font-size: .90em;
+    color: #ffffff;
+    text-align: center;
+}
+
+#tribute-info {
+    background: rgba(255, 255, 255, 0.3);
+    color: #000;
+    font: bold;
+}
+
+.content {
+    padding: 0 5%;
+    text-align: justify;
+}
+
+li {
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+.fotos{
+    height: 18em;
+    max-width: 100%;
+  border-radius:50%
+}
+.container{
+   padding: auto;
+}
+span{
+    font-size: 2em;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1em;
+  }
+}
